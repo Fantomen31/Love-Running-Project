@@ -1,3 +1,6 @@
+/* Googlefonts */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Jersey+15&family=Pixelify+Sans:wght@400..700&display=swap');
+
 /* Asteriks wild card selector to override all default styles added by the browser. */
 * {
     padding: 0;
@@ -12,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic Project Styles*/
     color:#3a3a3a;
+    font-family: "Pixelify Sans",sans-serif;
 }
 
 
