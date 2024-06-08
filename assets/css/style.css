@@ -21,8 +21,8 @@ body {
 
 /* Header */
 header {
-    background-color:#ffffff
-    padding: 0 1rem;
+    background-color:#ffffff;
+    padding:0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -40,6 +40,21 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color:chartreuse;
+}
+
+#menu {
+    letter-spacing: 4px;
+    font-size: 110%;
+    list-style-type:none; 
+    color:blue;
+}
+
+#menu {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 2px solid chartreuse;
 }
 
 /* Main Content */
