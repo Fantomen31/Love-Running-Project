@@ -93,6 +93,7 @@ main {
     background-color:orange;
     /* Make main element take any surplus space to put down footer*/
     flex: 1 0 auto;
+    margin-top: 40px;
 }
 
 /* Footer */
