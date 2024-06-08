@@ -98,8 +98,18 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color:aqua 
+#social-networks {
+    text-align: center;
+    padding: 20px 0; 
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 150%;
+    padding: 5%;
+    color:deeppink;
 }
 
 /* Media querie: tablet and larger*/
