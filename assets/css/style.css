@@ -18,6 +18,16 @@ body {
     font-family: "Pixelify Sans",sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: "Jersey 15", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:chartreuse;
+    display:flex;
+    text-shadow:  -1px -1px 0 #000; 
+    font-size: 2rem; 
+   
+}
 
 /* Header */
 header {
@@ -36,14 +46,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: "Jersey 15", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color:chartreuse;
-    display:flex;
 }
 
 #menu {
@@ -102,6 +104,20 @@ main {
     height: 600px; 
     width: 100%; 
     background:url(../images/hero-image.png) no-repeat center center/cover; 
+    position: relative;
+
+}
+
+#cover-text {
+    /* Final rgba sets opacity lvls*/
+    background-color: rgba(255,69,0, .5);
+    font-size: 130%;
+    position:absolute;
+    bottom: 30px; 
+    width:80%; 
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left:10px; 
 }
 
 /* Footer */
@@ -152,6 +168,12 @@ main {
     main {
         /*Push main content down to accomodate for larger header */
         margin-top: 150px;
+    }
+
+    /* Hero Image */
+    #cover-text {
+        width: 30%;
+        right: 50px;
     }
 
 }
