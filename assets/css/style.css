@@ -173,14 +173,35 @@ main {
 
 /* Section ID-Meet-Ups*/
 
-#times h3, #meetups h1 {
+#times h3 {
     font-family: "Jersey 15", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color:orange;
-    display:flex;
+    text-align: center;
     text-shadow:  -1px -1px 0 #000; 
     font-size: 2rem; 
+}
+
+#times { 
+    background:url(../images/dublin-city.webp) no-repeat center/cover; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color:aqua;
+    background-color: rgba( 0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens smaller then 400px, 
+    each div will expand to fill the available space on its row*/
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a sexy wrap around border*/
+    border: 2px solid white;
+
+
 }
 
 
