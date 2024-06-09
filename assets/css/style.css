@@ -278,10 +278,12 @@ main {
 
     #benefits-mental > div {
         align-self: flex-start;
+        margin-top: 25px;
     }
 
     #benefits-physical > div {
         align-self: flex-end;
+        margin-top: 25px;
     }
 
 }
