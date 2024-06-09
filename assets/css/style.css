@@ -171,6 +171,19 @@ main {
     justify-content: center;
 }
 
+/* Section ID-Meet-Ups*/
+
+#times h3, #meetups h1 {
+    font-family: "Jersey 15", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:orange;
+    display:flex;
+    text-shadow:  -1px -1px 0 #000; 
+    font-size: 2rem; 
+}
+
+
 
 
 /* Footer */
