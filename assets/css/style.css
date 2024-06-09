@@ -153,6 +153,14 @@ main {
 
 /* Benefits Image */
 
+#circle-cover-bg{
+    height: 90vw; 
+    width: 90vw; 
+    background:url(../images/female-runner.webp) no-repeat top center/cover; 
+    position: relative;
+    margin-bottom: 20px;
+
+}
 
 
 
