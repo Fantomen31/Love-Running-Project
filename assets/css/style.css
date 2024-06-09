@@ -252,6 +252,13 @@ main {
 @media screen and (min-width: 1200px) {
     /* Benefits Image+ text style on 1200px and larger */
 
+    #benefits > h2 {
+        position: absolute;
+        padding-top: 0;
+        padding-left: 25rem;
+        z-index: 1;
+    }
+
     #benefits {
         display: flex;
         flex-direction: row;
@@ -276,8 +283,6 @@ main {
     #benefits-physical > div {
         align-self: flex-end;
     }
-
-    
 
 }
 @media screen and (min-width: 992px) {
