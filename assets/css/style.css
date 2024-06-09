@@ -26,7 +26,11 @@ h1, h2, h3 {
     display:flex;
     text-shadow:  -1px -1px 0 #000; 
     font-size: 2rem; 
-   
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin:5px 0; 
 }
 
 /* Header */
@@ -119,6 +123,34 @@ main {
     padding-top: 40px;
     padding-left:10px; 
 }
+
+/* Why love running with us? */
+#reasons {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto; 
+}
+
+#benefits {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#reasons-h2 {
+    font-size: 280%;
+}
+
+#benefits-physical, #benefits-mental {
+    line-height: 20px;
+    margin-top:20px;
+}
+
+div > p {
+    padding: 0 20px;
+}
+
+
 
 /* Footer */
 #social-networks {
