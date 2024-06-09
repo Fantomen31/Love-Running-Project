@@ -159,7 +159,16 @@ main {
     background:url(../images/female-runner.webp) no-repeat top center/cover; 
     position: relative;
     margin-bottom: 20px;
+    /* Makes the image a circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
 
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
