@@ -232,7 +232,15 @@ main {
     color:deeppink;
 }
 
+/* Media quary: large or landscape phones*/
+@media screen and (min-width: 578px) {
+    #photos {
+        column-count: 2; 
+        column-gap: 0; 
+    }
+
 /* Media querie: tablet and larger*/
+
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
@@ -291,7 +299,14 @@ main {
         align-self: flex-end;
     }
 
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
+
+
 }
+
 
 @media screen and (min-width: 1200px) {
     /* Benefits Image+ text style on 1200px and larger */
@@ -330,7 +345,14 @@ main {
         margin-top: 25px;
     }
 
+    /* Gallery */
+
+    #photos {
+        column-count: 4;
+    }
+
 }
+
 @media screen and (min-width: 992px) {
     /* */
     #menu a:hover{
