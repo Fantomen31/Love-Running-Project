@@ -176,6 +176,12 @@ main {
 
 /* Section ID-Meet-Ups*/
 
+#times { 
+    background:url(../images/dublin-city.webp) no-repeat center/cover; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #times h3 {
     font-family: "Jersey 15", sans-serif;
     text-transform: uppercase;
@@ -184,12 +190,6 @@ main {
     text-align: center;
     text-shadow:  -1px -1px 0 #000; 
     font-size: 2rem; 
-}
-
-#times { 
-    background:url(../images/dublin-city.webp) no-repeat center/cover; 
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #times div {
@@ -203,8 +203,6 @@ main {
     flex-grow: 1;
     /* Creates a sexy wrap around border*/
     border: 2px solid white;
-
-
 }
 
 
